@@ -1,0 +1,72 @@
+#main-navbar{
+    z-index: 100; 
+}    
+.navbar {
+    height: 65px;
+}    
+#main-navbar a{
+    border-bottom: 3px solid #212529;
+    text-transform: uppercase;
+}    
+#main-navbar a:hover, #main-navbar .active{
+    border-bottom-color: rgb(44, 235, 246) ;
+    transition: border-color 500ms;
+}
+#home {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+body{
+    background: linear-gradient(#c5400b 0%, rgba(223, 239, 5, 0.8) 40%, #fff 100%);
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.profileimage{
+    width: 200px;
+}
+.profile h1{
+    color: white;
+}
+.about{
+    background-color: #fff;
+    padding-top: 100px;
+}
+.row{
+    padding: 0px 20px;
+}
+.skill{
+    padding-top: 100px;
+    
+}
+.education{
+    padding-top: 55px;
+    background-color: #fff;
+}
+.education #gambar{
+    padding-right: 100px;
+}
+.footer{
+    background-color: #fc7945;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.contact a{
+    color: black;
+    font-size: 30px;
+}
+.created{
+    padding-top: 20px;
+}
+@media (min-width:"1200px") {
+    .container {
+        max-width: 1140px;
+    }
+}
